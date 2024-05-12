@@ -1,9 +1,9 @@
 public class InsertionSort {
     public static void main(String[] args) {
         int[] array = {31, 42, 13, 63, 52, 69};
-        insertionSort(arr);
+        insertionSort(array);
         System.out.println("Sorted array in ascending order:");
-        for (int num : arr) {
+        for (int num : array) { 
             System.out.print(num + " ");
         }
     }
